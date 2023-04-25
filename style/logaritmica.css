@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+:root{
+    --cor--principal: #D49963;
+    --cor--preta: black;
+    --cor--branca: white;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Great Vibes', sans-serif;
+}
+
+
+/* classes */
+
+
+.cor_pricipal{
+    color: var(--cor--principal);
+}
+
+
+.textos, .cor_pricipal{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.voltar{
+    margin: 20px;
+    border: none;
+    box-shadow: black 2px 2px 2px 2px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.ftos{
+    width: 300px; height: 90px;
+    border-radius: 15px;
+}
+
+/* cabecalho */
+
+header, header a{
+    color: black;
+}
+
+header #logaritmica{
+    background-color: var(--cor--principal);
+    padding: 30px;
+    font-size: 25px;
+}
+
+
+header #assuntos{
+    margin: 20px;
+    border-bottom: solid black 1px;
+}
+
+header #assuntos a{
+    color: var(--cor--preta);
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+header #assuntos a:hover{
+    color: #D49963;
+}
+
+/* propriedades */
+
+#conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.tabela{
+    width: 500px; height: 300px;
+}
+
+#caracteristicas{
+    background-color: #d49a6338;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+/* graficos */
+
+#graficos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.graficos{
+    width: 300px; height: 300px;
+}
+
+main #dois{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.crescente{
+    background-color: var(--cor--principal);
+    padding: 10px;
+    font-size: 25px;
+}
+
+.funcao{
+    border-bottom: solid black 1px;
+    box-shadow: black 2px 1px 2px 1px;
+    width: fit-content; height: fit-content;
+    margin: 25px;
+}
+
+.fun{
+    width: 100px; height: 50px;
+    margin: 10px;
+}

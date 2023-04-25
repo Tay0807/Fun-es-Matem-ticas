@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root{
+    --cor--principal: #D49963;
+    --cor--preta: black;
+    --cor--branca: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Great Vibes', sans-serif;
+    text-align: center;
+    color: var(--cor--branca);
+    transition: all 3s;
+}
+
+/* =========================================================
+header
+=================================================== */
+
+header{
+    background-color: var(--cor--principal);
+    font-size: 25px;
+}
+
+/* =========================================================
+main
+=================================================== */
+
+main #banner{
+    background-image: url(../img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+h2{
+    color: var(--cor--principal);
+    margin: 30px;
+    font-size: 30px;
+}
+
+
+
+main #botoes div a button{
+    border: none;
+    background-color: var(--cor--principal);
+    padding: 10px 50px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+main #botoes div a button:hover{
+    color: var(--cor--preta);
+    padding: 12px 52px;
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+:root{
+    --cor--principal: #D49963;
+    --cor--preta: black;
+    --cor--branca: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Great Vibes', sans-serif;
+}
+
+.textos, .coeficientes{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+.graficos{
+    width: 300px; height: 300px;
+}
+.ftos, .fun{
+    margin: 20px;
+    border-radius: 20px;
+    border-radius: 15px;
+}
+.fun{
+    height: 40px;
+}
+.botoes{
+    background-color: var(--cor--principal);
+    padding: 10px;
+    font-size: 25px;
+}
+.funcoes{
+    border: solid black 1px;
+    box-shadow: black 2px 2px 2px 2px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.carac{
+    width: 100px; height:  100px;
+}
+
+.sair{
+    margin: 10px;
+    color: black;
+}
+/* =========================================================
+header
+================================================ */
+header #quadratica{
+    background-color: var(--cor--principal);
+    padding: 30px;
+    font-size: 25px;
+}
+
+header #assuntos{
+    border-bottom: solid black 1px;
+}
+
+header #assuntos a{
+    color: var(--cor--preta);
+    font-size: 20px;
+    padding: 20px;
+}
+
+header #assuntos a:hover{
+    color: #D49963;
+}
+
+/*=========================================================
+main definicao
+================================================== */
+
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.voltar{
+    margin: 20px;
+    border: none;
+    box-shadow: black 2px 2px 2px 2px;
+    padding: 5px;
+    font-size: 15px;
+}
+/* =========================================================================
+main caracteristicas
+===================================================================== */
+
+main #caracteristicas ul li, .coeficientes{
+    color: var(--cor--principal);
+}
+
+#proprie{
+    background-color: #f0c7a05a;
+}
+
+/* ==============================================================================
+raizes
+============================================================================ */
+
+main #raivert{
+    background-color: var(--cor--principal);
+    justify-items: center;
+}
+
+main #raivert .raizes{
+    background-color:rgba(255, 255, 255, 0.245) ;
+    text-align: center;
+    width: 500px; height: fit-content;
+}
+
+main #raivert #raiz{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+h2, main #raivert .raizes, .botoes, header #assuntos, h3{
+    margin: 20px;
+}
+
+
+/* =====================================================================
+main graficos
+====================================================================== */
+
+main #graficos, main #caracteristicas, main #raivert{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+main #graficos{
+    margin: 50px;
+}

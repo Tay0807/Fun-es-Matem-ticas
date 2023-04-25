@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+:root{
+    --cor--principal: #D49963;
+    --cor--preta: black;
+    --cor--branca: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Great Vibes', sans-serif;
+}
+
+
+/* texto preto */
+header #exponencial, header #assuntos a{
+    color: var(--cor--preta);
+}
+
+/* linha */
+header #assuntos{
+    border-bottom: solid black 1px;
+}
+
+/* fonte */
+
+.texto, .textos{
+    font-family: 'Courier New', monospace;
+}
+
+/* f(x) */
+.fx{
+    width: 180px; height: 60px;
+    border-radius: 15px;
+}
+
+/* botao voltar */
+.voltar{
+    margin: 20px;
+    border: none;
+    box-shadow: black 2px 2px 2px 2px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* propiedades */
+.titulo{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.textos{
+    color: white;
+}
+/* ================================================================================================
+ cabecalho]
+ ================================================================================================= */
+
+header #exponencial{
+    background-color: var(--cor--principal);
+    padding: 30px;
+    font-size: 25px;
+}
+
+header a{
+    color: black;
+}
+
+header #assuntos, h3, iframe, .caracteristicas, .graficos, .fx{
+    margin: 25px;
+}
+
+header #assuntos a{
+    font-size: 20px;
+    margin: 25px;
+}
+
+header #assuntos a:hover{
+    color: #D49963;
+}
+
+/* ====================================================================================================
+definição
+======================================================================================================= */
+
+h3{
+    font-size: 25px;
+}
+
+/* =======================================================================================================
+caracteristicas
+======================================================================================================== */
+
+main #propiedades{
+    background-color: var(--cor--principal);
+}
+
+main #propiedades #caracteristicas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.caracteristicas{
+    background-color: rgba(255, 255, 255, 0.105);
+    width: 350px; height: 250px;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* =============================================================
+graficos
+=============================================================== */
+
+.graficos{
+    width: 300px; height: 300px;
+}
+
+main #dois{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.crescente{
+    background-color: #d49a6334;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.funcao{
+    border-bottom: solid black 1px;
+    box-shadow: black 2px 1px 2px 1px;
+    width: fit-content; height: fit-content;
+    margin: 25px;
+}

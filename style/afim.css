@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+:root{
+    --cor--principal: #D49963;
+    --cor--preta: black;
+    --cor--branca: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Great Vibes', sans-serif;
+}
+
+.textos{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+.graficos{
+    width: 300px; height: 300px;
+}
+.ftos, .fun{
+    margin: 20px;
+    border-radius: 20px;
+    border-radius: 15px;
+}
+.fun{
+    height: 40px;
+}
+.botoes{
+    border: none;
+    background-color: var(--cor--principal);
+    padding: 10px 50px;
+    margin: 20px;
+    font-size: 20px;
+}
+.funcoes{
+    border: solid black 1px;
+    box-shadow: black 2px 2px 2px 2px;
+    margin: 10px;
+}
+
+.sair{
+    margin: 10px;
+    color: black;
+}
+
+/* =========================================================
+header
+================================================ */
+header #afim{
+    background-color: var(--cor--principal);
+    padding: 30px;
+    font-size: 25px;
+}
+
+header #assuntos{
+    margin: 20px;
+    border-bottom: solid black 1px;
+}
+
+header #assuntos a{
+    color: var(--cor--preta);
+    font-size: 20px;
+    padding: 20px;
+}
+
+header #assuntos a:hover{
+    color: #D49963;
+}
+
+/*=========================================================
+main definicao
+================================================== */
+
+
+h3{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.voltar{
+    margin: 20px;
+    border: none;
+    box-shadow: black 2px 2px 2px 2px;
+    padding: 5px;
+    font-size: 15px;
+}
+/* =======================================================================
+main caracteristicas
+===================================================================== */
+
+main #caracteristicas ul li{
+    color: var(--cor--principal);
+}
+
+/* =====================================================================
+main graficos
+====================================================================== */
+
+main #graficos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+}
+
+#caracteristicas{
+    background-color: #f0d9c339;
+}
+
+
+
+
+

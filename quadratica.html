@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/quadratica.css">
+    <title>Funções</title>
+</head>
+<body>
+    <header>
+        <section id="quadratica">
+            <p> Função Quadrática</p>
+            <a href="index.html" class="sair"><i class="fa-solid fa-right-from-bracket"></i></a>
+            
+        </section>
+        <section id="assuntos">
+            <a href="#definicao">Definição</a>
+            <a href="#caracteristicas">Características</a>
+            <a href="#graficos">Gráficos</a>
+        </section>
+    </header>
+
+    <main>
+
+        <section id="definicao">
+            <h3>Definição</h3>
+            <p class="textos">A função quadrática, também chamada de função do segundo grau, é expressa como f(x) = ax² + bx + c ou y = ax² + bx + c, sendo que os coeficientes "a, b e c" números reais e "a" diferente de 0 (zero).
+                </p>
+
+                <iframe src="https://www.desmos.com/calculator/1x46f2lqg9?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+            <figure>
+                <img class="ftos" src="img/um_quadratica.png" alt="">
+            </figure>
+
+            <a href="#quadratica"><button class="voltar">Voltar</button></a>
+        </section>
+
+        <section id="proprie">
+            <h3>Propriedades</h3>
+            <div id="caracteristicas">
+                <div>
+                    <p class="textos">F (x) = Ax² + Bx + C</p>
+                    <p class="textos">Onde:</p>
+                    <ul>
+                        <li class="textos">a ≠ 0</li>
+                        <li class="textos">a > 0 concavidade para cima</li>
+                        <li class="textos" >a < 0 concavidade para baixo</li>
+                        <li class="textos">os coeficientes b e c podem ser iguais a zero</li>
+                        <li class="textos">O c é a intercepção com o eixo y</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="textos">Exemplos de Funções de segundo grau:</p>
+                    <p class="textos">f (x) 2x² + 3x - 4</p>
+                    <p class="coeficientes">a = 2  b = 3  c = -4</p>
+                    <p class="textos">f (x) x² + 5</p>
+                    <p class="coeficientes">a = 1  b = 0  c = 5</p>
+                    <p class="textos">y = 3x² - x</p>
+                    <p class="coeficientes">a = 3  b = -1  c = 0</p>
+                    <p class="textos">y = -2x² - 3x + 8</p>
+                    <p class="coeficientes">a = -2  b = -3  c = 8</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="raivert">
+            <div>
+                <h2>Raízes</h2>
+                <div class="raizes">
+                        <p class="textos">Pontos de intercepção no eixo x.</p>
+                        <figure>
+                            <img class="carac" src="img/xum-xdois.png" alt="">
+                        </figure>
+                        <ul>
+                            <li class="textos">As raízes são calculadas a partir da fórmula de Bhaskára.</li>
+                            <li class="textos">delta > 0 teremos 2 raízes diferentes.</li>
+                            <li class="textos">delta = 0 as raízes serão iguais.</li>
+                            <li class="textos">delta < 0 não terá intercepção com o eixo x.</li>
+                        </ul>
+                        <div id="raiz">
+                            <img class="carac" src="img/eixox.png" alt="">
+                            <img class="carac" src="img/sem-xum.png" alt="">
+                        </div>
+                </div>
+            </div>
+
+            
+            <div>
+                <h2>Vértice</h2>
+                <div class="raizes">
+                    <p class="textos">Condizem com o ponto mínimo e ponto máximo</p>
+                    <figure>
+                        <img class="carac" src="img/minimo_maximo.png" alt="">
+                    </figure>
+                    <p class="textos">O ponto vermelho representa o ponto mínimo. O ponto mínimo sempre será encontrado quando o gráfico tiver a concavidade para cima.</p>
+                    <p class="textos">Em gráficos com a concavidade para baixo encontraremos o ponto maxímo. Que está representado no ponto branco</p>
+                    <p class="textos">Fórmula</p>
+                    <p class="textos">Xv = -b/2a</p>
+                    <p class="textos">Yv = -delta/4a</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Gráficos</h3>
+            <p class="textos">Os gráficos da função quadrática é denominada como uma: PARÁBOLA</p>
+            <div id="graficos">
+                <div class="funcoes">
+                    <p class="botoes">Positiva</p>
+                        <div><img class="fun" src="img/dois_concabaixo.png" alt=""></div>
+                        <div><img class="graficos" src="img/conca_cima.png" alt=""></div>
+                        <p class="textos">a > 0</p>
+                        <p class="textos">Concavidade para cima</p>
+                </div>
+
+                <div class="funcoes">
+                    <p  class="botoes">Negativa</p>
+                        <div><img class="fun" src="img/tres_concacima.png" alt=""></div>
+                        <div><img class="graficos" src="img/conca_baixo.png" alt=""></div>
+                        <p class="textos">a < 0</p>
+                        <p class="textos">Cocavidade para baixo</p>
+                </div>
+            </div>
+        </section>
+        <a href="#quadratica"><button class="voltar">Voltar</button></a>
+    </main>
+    <script src="https://kit.fontawesome.com/45751c5e31.js" crossorigin="anonymous"></script>
+</body>
+</html>
